@@ -84,7 +84,7 @@ function pad0(value) {
     return result;
 }
 
-var stopwatch = new stopWatch(document.querySelector('.stopwatch'));
+var stopwatch = new StopWatch(document.querySelector('.stopwatch'));
 
 var startButton = document.getElementById('start');
 startButton.addEventListener('click', function () {
